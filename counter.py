@@ -86,7 +86,7 @@ while True:
     cv2.waitKey(1)
     if time.time() - l_p >= 5:
         last = blinkCounter
-        if blinkCounter >= 3:
+        if blinkCounter >= 6:
             print(name, datetime.now(), blinkCounter)
             dic = {
                 'time': datetime.now().timestamp(),
