@@ -15,7 +15,7 @@ It aims to provide round clock assistance with great efficiency.
 Clone the project
 
 ```bash
-  https://github.com/arjun-g-krishna/i-recon
+  git clone https://github.com/arjun-g-krishna/i-recon
 ```
 
 Go to the project directory
