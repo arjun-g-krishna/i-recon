@@ -12,7 +12,7 @@ detector = FaceMeshDetector(maxFaces=1) # max faces for detection is 1
 plotY = LivePlot(640,360,[10,40], invert=True)
 
 cred_obj = firebase_admin.credentials.Certificate(r'key.json')
-default_app = firebase_admin.initialize_app(cred_obj, {'databaseURL': 'https://i-recon-default-rtdb.asia-southeast1.firebasedatabase.app/'})
+default_app = firebase_admin.initialize_app(cred_obj, {'databaseURL': '####'})
 ref = db.reference('/')
 users_ref = ref.child('patients')
 
