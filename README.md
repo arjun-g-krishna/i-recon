@@ -45,7 +45,7 @@ Install dependencies
 - [@AshikDavid](https://www.github.com/AshikDavid)
 - [@Sarath-Kumar-S](https://www.github.com/Sarath-Kumar-S)
 
-## Acknowledgements
+## Literature Review
 
  - [Efficient machine learning approach for volunteer eye-blink detection in real-time using webcam](https://doi.org/10.1016/j.eswa.2021.116073)
  - [Robust Eye Blink Detection Based on Eye Landmarks and Savitzky–Golay Filtering]( https://doi.org/10.3390/info9040093)
