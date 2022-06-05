@@ -29,8 +29,9 @@ Install dependencies
 ```bash
   pip install -r requirements.txt
 ```
-> Replace "key.json" at line 14 in counter.py with the path to your firebase admin credentials json file.
-Run the program
+> Replace "key.json" at line 14 in counter.py with the path to your firebase admin credentials json file and replace #### at line 15 with your firebase realtime database URL.
+
+<br> Run the program
 
 ```bash
   python3 counter.py
