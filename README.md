@@ -1,14 +1,13 @@
 
 # i Recon
 
-An eye-blink based alert system for paralyzed patients suffering from ALS syndrome. 
+An eye-blink based alert system for paralyzed patients suffering from Locked in Syndrome(LiS). 
 Final year project done as part of APJ Abdul Kalam Technological University syllabus.
 
 ## Introduction
 
-Several neurological disorders could cause patients to lose control over all voluntary muscles leaving them paralysed. 
-The project puts forward a solution to the inconveniences faced by a paralyzed patient, making use of an alert mechanism to connect the caretaker with the patient.
-It aims to provide round clock assistance with great efficiency.
+Several neurological disorders including LiS and severe cases of ALS(Amyotrophic lateral sclerosis) could cause patients to lose control over all voluntary muscles leaving them paralysed. 
+The project puts forward a solution to the inconveniences faced by a paralyzed patient, making use of an alert mechanism to connect the caretaker with the patient.Patients with such conditions need round the clock assistance which is not feasible.Instead patients could call the caretaker when needed through eye blinks.
 
 ## Run Locally
 
