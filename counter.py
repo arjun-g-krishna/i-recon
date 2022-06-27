@@ -12,7 +12,7 @@ detector = FaceMeshDetector(maxFaces=1) # max faces for detection is 1
 plotY = LivePlot(640,360,[10,40], invert=True)
 
 cred_obj = firebase_admin.credentials.Certificate(r'key.json')
-default_app = firebase_admin.initialize_app(cred_obj, {'databaseURL': 'https://ireckon-ce2cb-default-rtdb.firebaseio.com/'})
+default_app = firebase_admin.initialize_app(cred_obj,{ 'databaseURL':'https://irecon-notify-default-rtdb.asia-southeast1.firebasedatabase.app/'})
 ref = db.reference('/')
 users_ref = ref.child('patients')
 
@@ -69,7 +69,7 @@ while True:
             if counter > 10:
                 counter = 0
 
-        cvzone.putTextRect(img, f'Blinks : {blinkCounter}', (50,100), 2, 2, (255,255,255),(0,255,0), cv2.FONT )
+        cvzone.putTextRect(img, f'Blinks : {blinkCounter}', (50,100), 2, 2, (255,255,255),(0,255,0))
         cvzone.putTextRect(img,f'{last}',(100,50))
         imgPlot = plotY.update(ratioAvg)
         img = cv2.resize(img, (640, 360))
